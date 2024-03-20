@@ -1,0 +1,10 @@
+Instructions: How to Run online voting system in your machine?
+
+    After you finish downloading the project, unzip the project file and head over to the project root directory.
+    You can also create a Virtual Environment and Activate it.
+    Open your Terminal/Command Prompt on the project’s root directory.
+    Install the Requirements: pip install -r requirements.txt.
+    Then, make database migrations: python manage.py makemigrations
+    python manage.py migrate
+    And finally, after a successful migration run the application: python manage.py runserver
+    For the Admin Login credentials, you have to create one with a superuser.
